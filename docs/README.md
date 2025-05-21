@@ -15,7 +15,7 @@
   
   2. В проекте написать: **pip install telegram** для установки всех нужных библиотек
 ## Работа бота
-![media-19531d2c5f311776c67e44b76083db13309004956-1.png]([https://postimg.cc/xcpwZzZn](https://postimg.su/image/6cQ7XFlO/question.png))
+![alt text](https://github.com/ctrannik787/PD/blob/main/start.png?raw=true)
 ### 1. Реализация команд
 
 ```python
@@ -39,7 +39,7 @@ async def quiz(update: Update, context):
     await send_question(update, context)
 ```
 ### 2. Создание вопроса
-
+![alt text](https://github.com/ctrannik787/PD/blob/main/question.png?raw=true)
 ```python
 async def send_question(update: Update, context):
     """Отправка вопроса или финального результата."""
