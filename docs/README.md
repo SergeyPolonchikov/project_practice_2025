@@ -38,6 +38,10 @@ async def quiz(update: Update, context):
     random.shuffle(context.user_data['question_indices'])
     await send_question(update, context)
 ```
+#### Команда /start
+![alt text](https://github.com/ctrannik787/PD/blob/main/Start.png?raw=true)
+#### Команда /quiz
+![alt text](https://github.com/ctrannik787/PD/blob/main/Quiz.png?raw=true)
 ### 2. Создание вопроса
 ![alt text](https://github.com/ctrannik787/PD/blob/main/question.png?raw=true)
 ```python
@@ -110,6 +114,8 @@ question_idx = context.user_data['question_indices'].pop()
         reply_markup = InlineKeyboardMarkup([[restart_button]])
         await query.edit_message_text(text, reply_markup=reply_markup)
 ```
+#### Ответ неверный
+![alt text](https://github.com/ctrannik787/PD/blob/main/Wrong.png?raw=true)
 ## Заключение
 Это руководство охватывает ключевые аспекты создания чат-бота в telegram на Python. Для дальнейшего развития проекта стоит рассмотреть:
 1. Добавление уровней сложности
