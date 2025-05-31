@@ -15,6 +15,7 @@
   
   2. В проекте написать: **pip install telegram** для установки всех нужных библиотек
 ## Работа бота
+![alt text](https://github.com/ctrannik787/PD/blob/main/start.png?raw=true)
 ### 1. Реализация команд
 
 ```python
