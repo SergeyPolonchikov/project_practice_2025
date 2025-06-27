@@ -12,10 +12,10 @@
 
 ## Настройка среды разработки
   1. Скачать PyCharm
- [https://t.me/Practice75309Bot)](https://t.me/Practice75309Bot)
+ 
   2. В проекте написать: **pip install telegram**  для установки всех нужных библиотек
 ## Ссылка на бота в telegram
-
+[https://t.me/Practice75309Bot)](https://t.me/Practice75309Bot)
 ## Работа бота
 ![alt text](https://github.com/ctrannik787/PD/blob/main/start.png?raw=true)
 ### 1. Реализация команд
